@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .class_cop {
   margin-right: auto;
   font-family: 'Arial', sans-serif;
@@ -17,7 +18,7 @@
 }
 
 #main-visual {
-  background: url(/folio3 模写LP web制作会社Class/img/main-visual.jpg) no-repeat center center;
+  background: url(/folio3_模写LP_web制作会社Class/img/main-visual.jpg) no-repeat center center;
   background-size: cover;
   color: #fff;
   display: -webkit-box;
