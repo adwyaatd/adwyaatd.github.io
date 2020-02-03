@@ -663,6 +663,7 @@ ul.folio-menu li:last-child::after{
   height: auto;
   margin-bottom: 1rem;
   cursor: pointer;
+  border: solid 1px gray;
 }
 
 .modal-content{
