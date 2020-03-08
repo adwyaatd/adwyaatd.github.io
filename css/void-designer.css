@@ -666,6 +666,17 @@ ul.folio-menu li:last-child::after{
   border: solid 1px gray;
 }
 
+.app img{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: solid 2px rgb(255, 0, 0);
+}
+
+}
+
 .modal-content{
   background: transparent; 
   box-shadow: none;
@@ -675,8 +686,6 @@ ul.folio-menu li:last-child::after{
 .modal-content img{
   margin: auto;
 }
-
-
 /*==================================================
 Testimonials Section
 ==================================================*/
