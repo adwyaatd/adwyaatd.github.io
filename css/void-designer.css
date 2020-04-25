@@ -290,9 +290,9 @@ Intro Section
   background: rgba(249,237,50, .3);
   position: absolute;
   width: 335px;
-  height: 60px;
+  height: 6vw;
   left: 50%;
-  bottom: -60px;
+  /* bottom: -60px; */
 }
 
 h1.name{
@@ -355,7 +355,7 @@ ul#scene li:nth-child(6) .my-info{
   left: 0;
   right: 0;
   margin: auto;
-  bottom: 150px;
+  bottom: 200px;
 }
 
 ul#scene li:nth-child(7) img{
@@ -373,7 +373,7 @@ About Section
 ==================================================*/
 
 #about{
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 
 /*My Photo*/
@@ -601,7 +601,7 @@ Projects Section
 
 #folio{
   text-align: center;
-  margin-bottom: 20rem;
+  margin-bottom: 7rem;
 }
 
 /*Portfolio Menu*/
@@ -651,6 +651,14 @@ ul.folio-menu li:last-child::after{
   transform: scale(0);
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
+  position: relative;
+  width: 100%;
+}
+
+.tile:before{
+  content: "";
+  display: block;
+  padding-top: 75%;
 }
 
 .scale-anm {
@@ -658,6 +666,11 @@ ul.folio-menu li:last-child::after{
 }
 
 .tile img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   max-width: 100%;
   width: 100%;
   height: auto;
@@ -1035,7 +1048,11 @@ ul.social-icons li a:hover{
   #skills img.img-skills{margin: 0 auto 50px;}
     
   /* Footer -----------------------------------------------------------------------------------------------------------------------------------*/
-  .contact-info{top: 0;}
+  .contact-info{
+    top: 0;
+    height: 190px;
+    padding: 30px 15px;
+  }
   
 }
 
@@ -1090,7 +1107,7 @@ ul.social-icons li a:hover{
   .yellow-box{width: 150px;}
   h1.name{font-size: 50px;}
   ul#scene li:nth-child(4) img{width: 250px;}
-  ul#scene li:nth-child(6) .my-info{bottom: 50px;}
+  ul#scene li:nth-child(6) .my-info{bottom: 100px;}
   
   /* About Section -----------------------------------------------------------------------------------------------------------------------------------*/
   .photo-block .photo img.my-photo{width: 220px;}
